@@ -1,0 +1,31 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Equipo {
+  id: ID!
+  descripcion: String!
+  serie: String!
+}
+
+type Query {
+  equipos: [Equipo!]!
+  equipo(id: ID!): Equipo!
+}
+
+type Mutation {
+  createEquipo(createEquipoInput: CreateEquipoInput!): Equipo!
+  updateEquipo(updateEquipoInput: UpdateEquipoInput!): Equipo!
+  removeEquipo(id: ID!): Equipo!
+}
+
+input CreateEquipoInput {
+  descripcion: String!
+  serie: String!
+}
+
+input UpdateEquipoInput {
+  descripcion: String
+  serie: String
+  id: ID!
+}
