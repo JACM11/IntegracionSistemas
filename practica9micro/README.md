@@ -7,7 +7,7 @@
 ### API GATEWAY
 
 ```bash
-# * la version de la API es v2 ej: http://localhost:3000/v2/auth/signup
+# * la version de la API es v2 ej: http://localhost:3000/v2/equipo/signup
 
 ```
 
@@ -33,7 +33,7 @@ $ npm run start:prod
 
 ```bash
 
-cd microservice-flights
+cd microservice-equipo
 
 npm install
 
@@ -53,7 +53,7 @@ $ npm run start:prod
 # development
 # * Tomar en cuenta que cada proyecto se debe haber corrido npm run build para que exista la carpeta /dist
 # * Docker se desplegara en el puerto 80
-# * la version de la API es v2 ej: http://localhost/v2/auth/signup
+# * la version de la API es v2 ej: http://localhost/v2/equipo/signup
 docker-compose -f docker-compose.dev.yml up --build -d
 
 # deploy from Docker hub
