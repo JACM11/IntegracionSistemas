@@ -27,43 +27,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-### Microservicio Usuarios
 
-```bash
 
-cd microservice-users
-
-npm install
-
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-### Microservicio Pasajeros
-
-```bash
-
-cd microservice-passengers
-
-npm install
-
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-### Microservicio Vuelos
+### Microservicio Equipos
 
 ```bash
 
