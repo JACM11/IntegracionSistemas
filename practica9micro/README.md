@@ -82,3 +82,5 @@ docker-compose -f docker-compose.prod.yml up --build -d
 ![image](https://github.com/JACM11/IntegracionSistemas/assets/70069630/e59e261e-842b-47b7-a8fe-cbba88579781)
 ![image](https://github.com/JACM11/IntegracionSistemas/assets/70069630/92bea768-c293-4d93-9e62-176fc32cbc6d)
 
+# QUEUE EN RABBIT MQ
+![image](https://github.com/JACM11/IntegracionSistemas/assets/70069630/0dfec47f-4dc8-4e2a-af03-0ef77c34cc29)
